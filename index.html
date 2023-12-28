@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/80fdc8b39d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="home">   
+        <div class="content">
+            <nav>
+                <img src="images/logo.jpg" class ="logo">
+                <ul>
+                    <li><a href='#home'>Home</a></li>
+                    <li><a href='#about'>About Me</a></li>
+                    <li><a href='#services'>Services</a></li>
+                    <li><a href='#portfolio'>Portfolio</a></li>
+                    <li><a href='#contact'>Contact</a></li>
+                </ul>
+            </nav>
+            <div class="detail">
+                <h1>Hi, I am Utkarsh <span> Pathak</span></h1>
+                <p>This is my personal portfolio website which shows
+                <br>every detail and work experience about me</p>
+                <a href="images/Utkarsh Resume1.pdf" download >Download My CV</a> <!----we can change this link to link our resume file path---->
+            </div>
+            <div class="image">
+                <img src="images/profile10 (3).png" class="photo">
+            </div>
+        </div>
+    </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col1">
+                <img src="images/profile2.jpeg">
+            </div>
+            <div class="col2">
+                <h1>About Me</h1>
+                  <p>Hi, I am UTKARSH and I work as a web developer. I am a enthusiast who loves to create websites. I think that people should look at the bigger picture when they are building something. I love to work in groups where everyone can voice their opinions and ideas. Proven experience developing consumer-focused websites using HTML, CSS and JavaScript. Good knowledge of the best practices for web design, user experience and speed.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-End Development</span><br> Front-End development using HTML, CSS, JavaScript & ReactJS</li>
+                        <li><span>UI UX</span><br> Designing Web Interfaces</li>
+                        <li><span>Web Development</span><br> Web App Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Fresher</span><br>No prior real world experience as I am a fresher in this field</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Com (2020-23)</span><br> University Of Kanpur</li>
+                        <li><span>Intermediate (2020)</span><br>City Children's Academy</li>
+                        <li><span>High School (2018)</span><br>City Children's Academy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container2">
+        <h1 class="title">Services</h1>
+        <div class="service-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>Beautiful and elegant designs with interfaces that are intutive, efficient and pleasant to use for the user.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h2>Development</h2>
+                <p>Custom web development tailored to your specifications, desgined to provide flawless user experience.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h2>UI/UX Designer</h2>
+                <p>Services that provides the best quality at the clients request, with professional work and customer support.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container3">
+        <h1 class="title">My Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/logo.svg">
+                <div class="layer">
+                    <h3>E-Commerce Website</h3>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/todo.png">
+                <div class="layer">
+                    <h3>To-do List</h3>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/login.jpg">
+                <div class="layer">
+                    <h3>Login Page</h3>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container4">
+        <div class="contact-text">
+            <div class="list">
+                <h1>Contact <span>Me</span></h1>
+                <h3>For any project in your mind</h3>
+                <p><i class="fa-regular fa-envelope"></i>utkarshpathak11up@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7880844045</p>
+                <div class="icons">
+                    <a href="http://instagram.com/utkarsh.pathak.18"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://linkedin.com/in/utkarsh-pathak-285612245"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+            </div>
+            <h5>This personal portfolio website functions as a testament to my accumulated knowledge and skills as a Front-End Developer, honed over a significant duration.</h5>
+        </div>
+        <div class="contact-form">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="E-Mail" placeholder="Your E-Mail" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="sbutton">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <p>Thank you <i class="fa-solid fa-heart"></i> for visiting my website</p>
+</div>
+
+<script>
+            
+    var tablinks= document.getElementsByClassName("tab-links")
+    var tabcontents= document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
